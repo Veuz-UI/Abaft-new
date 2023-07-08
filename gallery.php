@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/hover-reveal.css">
     <link rel="stylesheet" href="assets/css/spacing.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link href="assets/css/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -100,10 +101,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row tp-gx-4 grid tp-portfolio-load-more" data-show="9">
+                <div class="row tp-gx-4 grid tp-portfolio-load-more" data-show="9" data-aos="fade-up" data-aos-duration="1500">
                     <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat1 cat4 cat2">
-                        <div class="portfolio__grid-item mb-40 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="portfolio__grid-item mb-40">
                             <div class="portfolio__grid-thumb w-img fix">
                            
                                     <img src="assets/img/portfolio/portfolio-grid-1.jpg" alt="">
@@ -136,8 +136,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat4 cat5">
-                        <div class="portfolio__grid-item mb-40 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
                             <div class="portfolio__grid-thumb w-img fix">
                           
                                     <img src="assets/img/portfolio/portfolio-grid-2.jpg" alt="">
@@ -172,8 +171,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat2 cat1 cat5">
-                        <div class="portfolio__grid-item mb-40 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
                             <div class="portfolio__grid-thumb w-img fix">
                               
                                     <img src="assets/img/portfolio/portfolio-grid-3.jpg" alt="">
@@ -208,8 +206,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat4 cat2 cat3">
-                        <div class="portfolio__grid-item mb-40 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
                             <div class="portfolio__grid-thumb w-img fix">
                             
                                     <img src="assets/img/portfolio/portfolio-grid-4.jpg" alt="">
@@ -244,8 +241,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat1 cat3 cat4">
-                        <div class="portfolio__grid-item mb-40 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
                             <div class="portfolio__grid-thumb w-img fix">
                               
                                     <img src="assets/img/portfolio/portfolio-grid-5.jpg" alt="">
@@ -280,8 +276,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
-                        <div class="portfolio__grid-item mb-40 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
                             <div class="portfolio__grid-thumb w-img fix">
                                
                                     <img src="assets/img/portfolio/portfolio-grid-6.jpg" alt="">
@@ -312,8 +307,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
-                        <div class="portfolio__grid-item mb-40 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
                             <div class="portfolio__grid-thumb w-img fix">
                                
                                     <img src="assets/img/portfolio/portfolio-grid-7.jpg" alt="">
@@ -348,8 +342,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
-                        <div class="portfolio__grid-item mb-40 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
                             <div class="portfolio__grid-thumb w-img fix">
                                
                                     <img src="assets/img/portfolio/portfolio-grid-8.jpg" alt="">
@@ -380,8 +373,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
-                        <div class="portfolio__grid-item mb-40 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
                             <div class="portfolio__grid-thumb w-img fix">
                               
                                     <img src="assets/img/portfolio/portfolio-grid-9.jpg" alt="">
@@ -416,8 +408,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
-                        <div class="portfolio__grid-item mb-40 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
                             <div class="portfolio__grid-thumb w-img fix">
                               
                                     <img src="assets/img/portfolio/portfolio-grid-10.jpg" alt="">
@@ -452,8 +443,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
-                        <div class="portfolio__grid-item mb-40 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
                             <div class="portfolio__grid-thumb w-img fix">
                              
                                     <img src="assets/img/portfolio/portfolio-grid-11.jpg" alt="">
@@ -484,8 +474,7 @@
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
-                        <div class="portfolio__grid-item mb-40 wow fadeInUp" data-wow-delay=".3s"
-                            data-wow-duration="1s">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
                             <div class="portfolio__grid-thumb w-img fix">
                               
                                     <img src="assets/img/portfolio/portfolio-grid-12.jpg" alt="">
@@ -564,6 +553,10 @@
     <script src="assets/js/isotope-pkgd.js"></script>
     <script src="assets/js/imagesloaded-pkgd.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>

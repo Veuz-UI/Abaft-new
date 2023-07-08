@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/hover-reveal.css">
     <link rel="stylesheet" href="assets/css/spacing.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link href="assets/css/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -93,7 +94,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                        <div class="services__item-5 mb-30 white-bg wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                        <div class="services__item-5 mb-30 white-bg" data-aos="fade-up" data-aos-duration="500">
                             <div class="services__item-5-inner text-center transition-3  white-bg">
                                 <div class="services__content-5">
                                     <h3 class="services__title-5">
@@ -118,7 +119,7 @@
                         </div>
                     </div>
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                        <div class="services__item-5 mb-30 white-bg wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                        <div class="services__item-5 mb-30 white-bg" data-aos="fade-up" data-aos-duration="1000">
                             <div class="services__item-5-inner text-center transition-3  white-bg">
                                 <div class="services__content-5">
                                     <h3 class="services__title-5">
@@ -143,7 +144,7 @@
                         </div>
                     </div>
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                        <div class="services__item-5 mb-30 white-bg wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                        <div class="services__item-5 mb-30 white-bg" data-aos="fade-up" data-aos-duration="1500">
                             <div class="services__item-5-inner text-center transition-3  white-bg">
                                 <div class="services__content-5">
                                     <h3 class="services__title-5">
@@ -169,7 +170,7 @@
                     </div>
                     <div class="col-lg-2"></div>
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                        <div class="services__item-5 mb-30 white-bg wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                        <div class="services__item-5 mb-30 white-bg wow" data-aos="fade-up" data-aos-duration="1000">
                             <div class="services__item-5-inner text-center transition-3  white-bg">
                                 <div class="services__content-5">
                                     <h3 class="services__title-5">
@@ -195,7 +196,7 @@
                     </div>
 
                     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                        <div class="services__item-5 mb-30 white-bg wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                        <div class="services__item-5 mb-30 white-bg" data-aos="fade-up" data-aos-duration="1500">
                             <div class="services__item-5-inner text-center transition-3  white-bg">
                                 <div class="services__content-5">
                                     <h3 class="services__title-5">
@@ -244,6 +245,10 @@
     <script src="assets/js/isotope-pkgd.js"></script>
     <script src="assets/js/imagesloaded-pkgd.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>

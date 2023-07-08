@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/hover-reveal.css">
     <link rel="stylesheet" href="assets/css/spacing.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link href="assets/css/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -79,7 +80,7 @@
         <section class="contact__form-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-12">
+                    <div class="col-xl-12" data-aos="fade-up" data-aos-duration="1500">
                         <div class="contact__form-2 contact__style-2 contact__translate">
                             <h3 class="contact__form-2-title">Send a message</h3>
                             <form  action="" method="POST">
@@ -130,7 +131,7 @@
         <section class="contact__loacation-box-area pt-120 pb-90">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000">
                         <div class="contact__location-box text-center white-bg mb-30">
                             <div class="contact__location-box-icon">
                                 <img src="assets/img/contact/contact-location-2.png" alt="">
@@ -152,7 +153,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1500">
                         <div class="contact__location-box text-center white-bg mb-30">
                             <div class="contact__location-box-icon">
                                 <img src="assets/img/contact/contact-location-1.png" alt="">
@@ -174,7 +175,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="2000">
                         <div class="contact__location-box text-center white-bg mb-30">
                             <div class="contact__location-box-icon">
                                 <img src="assets/img/contact/contact-location-3.png" alt="">
@@ -223,6 +224,10 @@
     <script src="assets/js/isotope-pkgd.js"></script>
     <script src="assets/js/imagesloaded-pkgd.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>

@@ -49,7 +49,7 @@
                               <div class="header__action d-none d-xl-block">
                               <div class="search-box-col">
                                 <a href="contact.php" class="search-open-btn">
-                                <i class="fa-regular fa-comment-dots"></i>
+                                <i class="fa-light fa-phone"></i>
                                 </a>
                             </div>
                               </div>

@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/hover-reveal.css">
     <link rel="stylesheet" href="assets/css/spacing.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link href="assets/css/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -77,7 +78,7 @@
         <section id="about" class="about__area grey-bg-8 pt-200 pb-200">
             <div class="container">
                 <div class="row">
-                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6"data-aos="fade-right" data-aos-duration="1500">
                         <div class="about__thumb-wrapper-4 p-relative">
                             <div class="about__thumb-4">
                                 <img class="about-thumb-main" src="assets/img/about/about-img-1.png" alt="">
@@ -104,7 +105,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-6 col-xl-6 col-lg-6">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6"data-aos="fade-left" data-aos-duration="1500">
                         <div class="about__wrapper-4">
                             <div class="section__title-wrapper-4 pr-5 mb-15">
                                 <span class="section__title-pre-4">Abaft solutions</span>
@@ -132,7 +133,7 @@
             <div class="container">
                 <div class="row gx-2 gy-2 gy-lg-0">
                     <div class="col-xxl-4 col-lg-4 col-md-6">
-                        <div class="fact__item white-bg d-flex align-items-center wow fadeInDown" data-wow-delay=".3s" data-wow-duration="1s">
+                        <div class="fact__item white-bg d-flex align-items-center"data-aos="fade-up" data-aos-duration="1000">
                             <div class="fact__icon">
                                 <p>
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -146,8 +147,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-4 col-lg-4 col-md-6">
-                        <div class="fact__item white-bg d-flex align-items-center wow fadeInDown" data-wow-delay=".5s" data-wow-duration="1s">
+                    <div class="col-xxl-4 col-lg-4 col-md-6"data-aos="fade-up" data-aos-duration="1500">
+                        <div class="fact__item white-bg d-flex align-items-center wow fadeInDown">
                             <div class="fact__icon">
                                 <p>
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -161,8 +162,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xxl-4 col-lg-4 col-md-6">
-                        <div class="fact__banner fact__banner-overlay p-relative z-index-1 wow fadeInDown" data-wow-delay=".7s" data-wow-duration="1s">
+                    <div class="col-xxl-4 col-lg-4 col-md-6"data-aos="fade-up" data-aos-duration="2000">
+                        <div class="fact__banner fact__banner-overlay p-relative z-index-1 wow fadeInDown">
                             <div class="fact__banner-bg include-bg" data-background="assets/img/fact-banner-bg.png"></div>
 
                             <div class="fact__banner-content">
@@ -178,7 +179,7 @@
 
 
         <section class="faq__area p-relative">
-            <div class="faq__video" data-background="assets/img/about/abaftstn.jpg">
+            <div class="faq__video" data-background="assets/img/about/abaftstn.jpg" data-aos="fade-right" data-aos-duration="2000">
               
             </div>
             <div class="container-fluid">
@@ -191,7 +192,7 @@
 
 
 
-                        <div class="faq__wrapper-2 faq__gradient-border faq__style-2 tp-accordion pl-160">
+                        <div class="faq__wrapper-2 faq__gradient-border faq__style-2 tp-accordion pl-160" data-aos="fade-left" data-aos-duration="1500">
 
 
                             <div class="about__wrapper-4">
@@ -224,7 +225,7 @@
             <div class="container">
                 <div class="row d-flex align-items-center">
 
-                    <div class="col-xl-6 col-lg-6">
+                    <div class="col-xl-6 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
                         <div class="about__wrapper-4 abt-wrap">
                             <div class="section__title-wrapper-4 pr-5 mb-15">
                                 <span class="section__title-pre-4">Abaft solutions</span>
@@ -242,7 +243,7 @@
                     </div>
 
                     <div class="col-xl-6 col-lg-6">
-                        <div class="about__thumb-15 p-relative z-index-1 w-img wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                        <div class="about__thumb-15 p-relative z-index-1 w-img" data-aos="fade-left" data-aos-duration="1500">
                          
                             <img class="about__thumb-15-shape-2" src="assets/img/about/about-thumb-shape-2.png" alt="">
                             <img src="assets/img/about/mngmnt.jpg" alt="">
@@ -263,7 +264,7 @@
                     <div class="about__shape">
                            <img class="about__shape-9" src="assets/img/about/about-shape-3.png" alt="">
                         </div>
-                        <div class="about__thumb-65 p-relative z-index-1 w-img wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                        <div class="about__thumb-65 p-relative z-index-1 w-img" data-aos="fade-right" data-aos-duration="1500">
                         
                             <img class="about__thumb-15-shape-2" src="assets/img/about/about-thumb-shape-2.png" alt="">
                             <img src="assets/img/about/growth.jpg" alt="">
@@ -272,7 +273,7 @@
 
 
                     <div class="col-xl-6 col-lg-6 order-1 order-md-2">
-                        <div class="about__wrapper-4">
+                        <div class="about__wrapper-4" data-aos="fade-left" data-aos-duration="1500">
                             <div class="section__title-wrapper-4 pr-5 mb-15">
                                 <span class="section__title-pre-4">Abaft solutions</span>
                                 <h3 class="section__title-4-2">How we support your business growth</h3>
@@ -305,7 +306,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="500">
                         <div class="team__item">
                             <div class="team__thumb w-img fix transition-3">
                                 <div class="tp-thumb-overlay wow"></div>
@@ -344,7 +345,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1000">
                         <div class="team__item">
                             <div class="team__thumb w-img fix transition-3">
                                 <div class="tp-thumb-overlay wow"></div>
@@ -383,7 +384,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
                         <div class="team__item">
                             <div class="team__thumb w-img fix transition-3">
                                 <div class="tp-thumb-overlay wow"></div>
@@ -422,7 +423,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-duration="2000">
                         <div class="team__item">
                             <div class="team__thumb w-img fix transition-3">
                                 <div class="tp-thumb-overlay wow"></div>
@@ -489,6 +490,11 @@
     <script src="assets/js/hover-reveal.js"></script>
     <script src="assets/js/tween-max.js"></script>
     <script src="assets/js/main.js"></script>
+    </script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>

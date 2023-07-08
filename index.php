@@ -22,9 +22,10 @@
     <link rel="stylesheet" href="assets/css/elegant-icon.css">
     <link rel="stylesheet" href="assets/css/spacing.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css">
+    <link href="assets/css/aos.css" rel="stylesheet">
 
 </head>
 
@@ -111,8 +112,8 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-xxl-6 col-xxl-6 col-lg-6">
-                        <div class="about__wrapper pr-95 wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                    <div class="col-xxl-6 col-xxl-6 col-lg-6" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="about__wrapper pr-95">
                             <div class="section__title-wrapper mb-25">
                                 <span class="section__title-pre">About us</span>
                                 <h3 class="section__title-about">
@@ -126,7 +127,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xxl-6 col-xl-6 col-lg-6 abaft-about-content">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 abaft-about-content" data-aos="fade-left" data-aos-duration="1500">
                         <h3>ABAFT GROUP</h3>
                         <p>ABAFT Group has been a pioneer in providing valuable business services for over a decade now. Our competence in the sectors of Hospitality, Retail, Marketing, and Technology has made us an importan...</p>
                         <a href="#">
@@ -151,7 +152,7 @@
 
 
         <section>
-            <div class="about-first-img">
+            <div class="about-first-img"data-aos="fade-up" data-aos-duration="1500">
                 <img src="assets/img/about-img.jpg">
             </div>
         </section>
@@ -160,7 +161,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
-                        <div class="about__wrapper pr-95 wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                        <div class="about__wrapper pr-95" data-aos="fade-right" data-aos-duration="1500">
                             <div class="section__title-wrapper mb-25">
                                 <span class="section__title-pre">Our Services</span>
                                 <h3 class="section__title-service">
@@ -173,7 +174,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 border-left-bottom">
+                    <div class="col-lg-3 border-left-bottom" data-aos="fade-up" data-aos-duration="1500">
                         <div class="service-box">
                             <h2>01</h2>
                             <img src="assets/img/services-img1.jpg" class="img-fluid">
@@ -188,7 +189,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 border-left-bottom">
+                    <div class="col-lg-3 border-left-bottom" data-aos="fade-up" data-aos-duration="1500">
                         <div class="service-box">
                             <h2>02</h2>
                             <img src="assets/img/services-img2.jpg" class="img-fluid">
@@ -203,7 +204,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 border-left-bottom-right">
+                    <div class="col-lg-3 border-left-bottom-right" data-aos="fade-up" data-aos-duration="1500">
                         <div class="service-box">
                             <h2>03</h2>
                             <img src="assets/img/services-img3.jpg" class="img-fluid">
@@ -220,7 +221,7 @@
                     </div>
                     <div class="col-lg-3"></div>
 
-                    <div class="col-lg-3 border-left-right">
+                    <div class="col-lg-3 border-left-right" data-aos="fade-up" data-aos-duration="1500">
                         <div class="service-box padd-extra">
                             <h2>04</h2>
                             <img src="assets/img/services-img4.jpg" class="img-fluid">
@@ -236,7 +237,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 border-right">
+                    <div class="col-lg-3 border-right" data-aos="fade-up" data-aos-duration="1500">
                         <div class="service-box padd-extra last-serbx">
                             <h2>05</h2>
                             <img src="assets/img/services-img5.jpg" class="img-fluid">
@@ -251,7 +252,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1500">
                         <h2 class="empty-space-label">Abaft<br> solutions
                         </h2>
                     </div>
@@ -265,11 +266,11 @@
             <div class="container-fluid">
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-7 video-sec pad-0">
-                        <img src="assets/img/advertisement.gif" class="img-fluid">
+                        <img src="assets/img/advertisement.mp4" class="img-fluid">
                     </div>
                     <div class="col-lg-5 pad-0">
                         <div class="bg-of-contant d-flex align-items-center">
-                            <div class="owl-carousel owl-theme section-content ">
+                            <div class="owl-carousel owl-theme section-content "data-aos="fade-left" data-aos-duration="1500">
                                 <div class="item">
                                     <div class="item-content-data">
                                         <h3>Abaft solutions</h3>
@@ -300,7 +301,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <div class="counter__item-4-wrapper d-flex justify-content-center wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
+                        <div class="counter__item-4-wrapper d-flex justify-content-center"data-aos="fade-up" data-aos-duration="500">
                             <div class="counter__item-4">
                                 <h4 class="counter__title-4 stroke-style"><span data-purecounter-duration="1" data-purecounter-end="16" class="purecounter">16</span></h4>
                                 <div class="counter__content-4">
@@ -310,7 +311,7 @@
                         </div>
                     </div>
                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <div class="counter__item-4-wrapper d-flex justify-content-center wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
+                        <div class="counter__item-4-wrapper d-flex justify-content-center"data-aos="fade-up" data-aos-duration="1000">
                             <div class="counter__item-4">
                                 <h4 class="counter__title-4"><span data-purecounter-duration="1" data-purecounter-end="200" class="purecounter">200</span>K</h4>
 
@@ -321,7 +322,7 @@
                         </div>
                     </div>
                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <div class="counter__item-4-wrapper d-flex justify-content-center wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
+                        <div class="counter__item-4-wrapper d-flex justify-content-center"data-aos="fade-up" data-aos-duration="1500">
                             <div class="counter__item-4">
                                 <h4 class="counter__title-4 stroke-style"><span data-purecounter-duration="1" data-purecounter-end="9" class="purecounter">9</span>k</h4>
 
@@ -332,7 +333,7 @@
                         </div>
                     </div>
                     <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                        <div class="counter__item-4-wrapper d-flex justify-content-center wow fadeInUp" data-wow-delay=".9s" data-wow-duration="1s">
+                        <div class="counter__item-4-wrapper d-flex justify-content-center"data-aos="fade-up" data-aos-duration="2300">
                             <div class="counter__item-4 mob-mb-0">
                                 <h4 class="counter__title-4"><span data-purecounter-duration="1" data-purecounter-end="90" class="purecounter">90</span>+</h4>
 
@@ -363,7 +364,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row"data-aos="fade-up" data-aos-duration="1500">
                         <div class="col-xxl-4 col-xl-4 col-lg-4 margin-box">
                             <div class="blog__item white-bg transition-3 mb-30 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                                 <div class="row">
@@ -465,7 +466,458 @@
                 </div>
             </div>
         </section>
-
+<section class="portfolio__area pt-110 pb-75 p-relative fix">
+            <div class="container">
+            <div class="row ">
+                        <div class="col-lg-12 d-flex align-items-center justify-content-center pb-20">
+                            <h2 class="main-head">Our Portfolio</h2>
+                        </div>
+                      
+                    </div>
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="portfolio__masonary-btn text-center mb-40">
+                            <div class="masonary-menu filter-button-group">
+                                <button class="active" data-filter="*">All</button>
+                                <button data-filter=".cat1">Apps</button>
+                                <button data-filter=".cat2">Branding</button>
+                                <button data-filter=".cat3">Creative</button>
+                                <button data-filter=".cat4">Packaging</button>
+                                <button data-filter=".cat5">Mockup</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row tp-gx-4 grid tp-portfolio-load-more" data-show="9" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat1 cat4 cat2">
+                        <div class="portfolio__grid-item mb-40">
+                            <div class="portfolio__grid-thumb w-img fix">
+                           
+                                    <img src="assets/img/portfolio/portfolio-grid-1.jpg" alt="">
+                             
+                                <div class="portfolio__grid-popup">
+                                    <a href="assets/img/portfolio/portfolio-grid-1.jpg" class="popup-image">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.1667 8.33341H0.833333C0.377778 8.33341 0 7.95564 0 7.50008C0 7.04453 0.377778 6.66675 0.833333 6.66675H14.1667C14.6222 6.66675 15 7.04453 15 7.50008C15 7.95564 14.6222 8.33341 14.1667 8.33341Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M7.4974 15C7.04184 15 6.66406 14.6222 6.66406 14.1667V0.833333C6.66406 0.377778 7.04184 0 7.4974 0C7.95295 0 8.33073 0.377778 8.33073 0.833333V14.1667C8.33073 14.6222 7.95295 15 7.4974 15Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__grid-content">
+                                <h3 class="portfolio__grid-title">
+                                   Magazine Cover
+                                </h3>
+                                <div class="portfolio__grid-bottom">
+                                    <div class="portfolio__grid-category">
+                                        <span>Creative</span>
+                                    </div>
+                              
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat4 cat5">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="portfolio__grid-thumb w-img fix">
+                          
+                                    <img src="assets/img/portfolio/portfolio-grid-2.jpg" alt="">
+                             
+                                <div class="portfolio__grid-popup">
+                                    <a href="assets/img/portfolio/portfolio-grid-2.jpg" class="popup-image">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.1667 8.33341H0.833333C0.377778 8.33341 0 7.95564 0 7.50008C0 7.04453 0.377778 6.66675 0.833333 6.66675H14.1667C14.6222 6.66675 15 7.04453 15 7.50008C15 7.95564 14.6222 8.33341 14.1667 8.33341Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M7.4974 15C7.04184 15 6.66406 14.6222 6.66406 14.1667V0.833333C6.66406 0.377778 7.04184 0 7.4974 0C7.95295 0 8.33073 0.377778 8.33073 0.833333V14.1667C8.33073 14.6222 7.95295 15 7.4974 15Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__grid-content">
+                                <h3 class="portfolio__grid-title">
+                                   Logo Mockups
+                                </h3>
+                                <div class="portfolio__grid-bottom">
+                                    <div class="portfolio__grid-category">
+                                        <span>
+                                          Productshot
+                                        </span>
+                                    </div>
+                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat2 cat1 cat5">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="portfolio__grid-thumb w-img fix">
+                              
+                                    <img src="assets/img/portfolio/portfolio-grid-3.jpg" alt="">
+                           
+                                <div class="portfolio__grid-popup">
+                                    <a href="assets/img/portfolio/portfolio-grid-3.jpg" class="popup-image">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.1667 8.33341H0.833333C0.377778 8.33341 0 7.95564 0 7.50008C0 7.04453 0.377778 6.66675 0.833333 6.66675H14.1667C14.6222 6.66675 15 7.04453 15 7.50008C15 7.95564 14.6222 8.33341 14.1667 8.33341Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M7.4974 15C7.04184 15 6.66406 14.6222 6.66406 14.1667V0.833333C6.66406 0.377778 7.04184 0 7.4974 0C7.95295 0 8.33073 0.377778 8.33073 0.833333V14.1667C8.33073 14.6222 7.95295 15 7.4974 15Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__grid-content">
+                                <h3 class="portfolio__grid-title">
+                                  Pattern Inspired
+                                </h3>
+                                <div class="portfolio__grid-bottom">
+                                    <div class="portfolio__grid-category">
+                                        <span>
+                                         Packaging
+                                        </span>
+                                    </div>
+                              
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat4 cat2 cat3">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="portfolio__grid-thumb w-img fix">
+                            
+                                    <img src="assets/img/portfolio/portfolio-grid-4.jpg" alt="">
+                            
+                                <div class="portfolio__grid-popup">
+                                    <a href="assets/img/portfolio/portfolio-grid-4.jpg" class="popup-image">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.1667 8.33341H0.833333C0.377778 8.33341 0 7.95564 0 7.50008C0 7.04453 0.377778 6.66675 0.833333 6.66675H14.1667C14.6222 6.66675 15 7.04453 15 7.50008C15 7.95564 14.6222 8.33341 14.1667 8.33341Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M7.4974 15C7.04184 15 6.66406 14.6222 6.66406 14.1667V0.833333C6.66406 0.377778 7.04184 0 7.4974 0C7.95295 0 8.33073 0.377778 8.33073 0.833333V14.1667C8.33073 14.6222 7.95295 15 7.4974 15Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__grid-content">
+                                <h3 class="portfolio__grid-title">
+                                  Product Design
+                                </h3>
+                                <div class="portfolio__grid-bottom">
+                                    <div class="portfolio__grid-category">
+                                        <span>
+                                           Apps
+                                        </span>
+                                    </div>
+                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat1 cat3 cat4">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="portfolio__grid-thumb w-img fix">
+                              
+                                    <img src="assets/img/portfolio/portfolio-grid-5.jpg" alt="">
+                                
+                                <div class="portfolio__grid-popup">
+                                    <a href="assets/img/portfolio/portfolio-grid-5.jpg" class="popup-image">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.1667 8.33341H0.833333C0.377778 8.33341 0 7.95564 0 7.50008C0 7.04453 0.377778 6.66675 0.833333 6.66675H14.1667C14.6222 6.66675 15 7.04453 15 7.50008C15 7.95564 14.6222 8.33341 14.1667 8.33341Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M7.4974 15C7.04184 15 6.66406 14.6222 6.66406 14.1667V0.833333C6.66406 0.377778 7.04184 0 7.4974 0C7.95295 0 8.33073 0.377778 8.33073 0.833333V14.1667C8.33073 14.6222 7.95295 15 7.4974 15Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__grid-content">
+                                <h3 class="portfolio__grid-title">
+                                   Branding Design
+                                </h3>
+                                <div class="portfolio__grid-bottom">
+                                    <div class="portfolio__grid-category">
+                                        <span>
+                                           Branding
+                                        </span>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="portfolio__grid-thumb w-img fix">
+                               
+                                    <img src="assets/img/portfolio/portfolio-grid-6.jpg" alt="">
+                             
+                                <div class="portfolio__grid-video">
+                                    <a href="https://www.youtube.com/watch?v=1gyTUHP6ne8"
+                                        class="portfolio-play-btn popup-video">
+                                        <svg width="18" height="22" viewBox="0 0 18 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M18 11L0 21.3923V0.607696L18 11Z" fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__grid-content">
+                                <h3 class="portfolio__grid-title">
+                                   Original Coffee
+                                </h3>
+                                <div class="portfolio__grid-bottom">
+                                    <div class="portfolio__grid-category">
+                                        <span>
+                                          Photography
+                                        </span>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="portfolio__grid-thumb w-img fix">
+                               
+                                    <img src="assets/img/portfolio/portfolio-grid-7.jpg" alt="">
+                             
+                                <div class="portfolio__grid-popup">
+                                    <a href="assets/img/portfolio/portfolio-grid-7.jpg" class="popup-image">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.1667 8.33341H0.833333C0.377778 8.33341 0 7.95564 0 7.50008C0 7.04453 0.377778 6.66675 0.833333 6.66675H14.1667C14.6222 6.66675 15 7.04453 15 7.50008C15 7.95564 14.6222 8.33341 14.1667 8.33341Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M7.4974 15C7.04184 15 6.66406 14.6222 6.66406 14.1667V0.833333C6.66406 0.377778 7.04184 0 7.4974 0C7.95295 0 8.33073 0.377778 8.33073 0.833333V14.1667C8.33073 14.6222 7.95295 15 7.4974 15Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__grid-content">
+                                <h3 class="portfolio__grid-title">
+                                  Visual Identity
+                                </h3>
+                                <div class="portfolio__grid-bottom">
+                                    <div class="portfolio__grid-category">
+                                        <span>
+                                           Branding
+                                        </span>
+                                    </div>
+                              
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="portfolio__grid-thumb w-img fix">
+                               
+                                    <img src="assets/img/portfolio/portfolio-grid-8.jpg" alt="">
+                              
+                                <div class="portfolio__grid-video">
+                                    <a href="https://www.youtube.com/watch?v=1gyTUHP6ne8"
+                                        class="portfolio-play-btn popup-video">
+                                        <svg width="18" height="22" viewBox="0 0 18 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M18 11L0 21.3923V0.607696L18 11Z" fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__grid-content">
+                                <h3 class="portfolio__grid-title">
+                                  UX Web Design
+                                </h3>
+                                <div class="portfolio__grid-bottom">
+                                    <div class="portfolio__grid-category">
+                                        <span>
+                                           Packaging
+                                        </span>
+                                    </div>
+                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="portfolio__grid-thumb w-img fix">
+                              
+                                    <img src="assets/img/portfolio/portfolio-grid-9.jpg" alt="">
+                              
+                                <div class="portfolio__grid-popup">
+                                    <a href="assets/img/portfolio/portfolio-grid-9.jpg" class="popup-image">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.1667 8.33341H0.833333C0.377778 8.33341 0 7.95564 0 7.50008C0 7.04453 0.377778 6.66675 0.833333 6.66675H14.1667C14.6222 6.66675 15 7.04453 15 7.50008C15 7.95564 14.6222 8.33341 14.1667 8.33341Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M7.4974 15C7.04184 15 6.66406 14.6222 6.66406 14.1667V0.833333C6.66406 0.377778 7.04184 0 7.4974 0C7.95295 0 8.33073 0.377778 8.33073 0.833333V14.1667C8.33073 14.6222 7.95295 15 7.4974 15Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__grid-content">
+                                <h3 class="portfolio__grid-title">
+                                  Magazine Cover
+                                </h3>
+                                <div class="portfolio__grid-bottom">
+                                    <div class="portfolio__grid-category">
+                                        <span>
+                                          Creative
+                                        </span>
+                                    </div>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="portfolio__grid-thumb w-img fix">
+                              
+                                    <img src="assets/img/portfolio/portfolio-grid-10.jpg" alt="">
+                               
+                                <div class="portfolio__grid-popup">
+                                    <a href="assets/img/portfolio/portfolio-grid-10.jpg" class="popup-image">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.1667 8.33341H0.833333C0.377778 8.33341 0 7.95564 0 7.50008C0 7.04453 0.377778 6.66675 0.833333 6.66675H14.1667C14.6222 6.66675 15 7.04453 15 7.50008C15 7.95564 14.6222 8.33341 14.1667 8.33341Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M7.4974 15C7.04184 15 6.66406 14.6222 6.66406 14.1667V0.833333C6.66406 0.377778 7.04184 0 7.4974 0C7.95295 0 8.33073 0.377778 8.33073 0.833333V14.1667C8.33073 14.6222 7.95295 15 7.4974 15Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__grid-content">
+                                <h3 class="portfolio__grid-title">
+                                   Visual Identity
+                                </h3>
+                                <div class="portfolio__grid-bottom">
+                                    <div class="portfolio__grid-category">
+                                        <span>
+                                            Branding
+                                        </span>
+                                    </div>
+                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="portfolio__grid-thumb w-img fix">
+                             
+                                    <img src="assets/img/portfolio/portfolio-grid-11.jpg" alt="">
+                              
+                                <div class="portfolio__grid-video">
+                                    <a href="https://www.youtube.com/watch?v=1gyTUHP6ne8"
+                                        class="portfolio-play-btn popup-video">
+                                        <svg width="18" height="22" viewBox="0 0 18 22" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M18 11L0 21.3923V0.607696L18 11Z" fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__grid-content">
+                                <h3 class="portfolio__grid-title">
+                                   UX Web Design
+                                </h3>
+                                <div class="portfolio__grid-bottom">
+                                    <div class="portfolio__grid-category">
+                                        <span>
+                                          Packaging
+                                        </span>
+                                    </div>
+                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 tp-portfolio grid-item cat3 cat2 cat5">
+                        <div class="portfolio__grid-item mb-40" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="portfolio__grid-thumb w-img fix">
+                              
+                                    <img src="assets/img/portfolio/portfolio-grid-12.jpg" alt="">
+                               
+                                <div class="portfolio__grid-popup">
+                                    <a href="assets/img/portfolio/portfolio-grid-12.jpg" class="popup-image">
+                                        <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M14.1667 8.33341H0.833333C0.377778 8.33341 0 7.95564 0 7.50008C0 7.04453 0.377778 6.66675 0.833333 6.66675H14.1667C14.6222 6.66675 15 7.04453 15 7.50008C15 7.95564 14.6222 8.33341 14.1667 8.33341Z"
+                                                fill="currentColor" />
+                                            <path
+                                                d="M7.4974 15C7.04184 15 6.66406 14.6222 6.66406 14.1667V0.833333C6.66406 0.377778 7.04184 0 7.4974 0C7.95295 0 8.33073 0.377778 8.33073 0.833333V14.1667C8.33073 14.6222 7.95295 15 7.4974 15Z"
+                                                fill="currentColor" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio__grid-content">
+                                <h3 class="portfolio__grid-title">
+                                  Magazine Cover
+                                </h3>
+                                <div class="portfolio__grid-bottom">
+                                    <div class="portfolio__grid-category">
+                                        <span>
+                                          Creative
+                                        </span>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="portfolio__load-more text-center">
+                            <button id="tp-load-more" type="button" class="tp-load-more-btn load-more mt-30 mb-50">
+                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1 8.5C1 4.36 4.33 1 8.5 1C13.5025 1 16 5.17 16 5.17M16 5.17V1.42M16 5.17H12.67"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M15.9175 8.5C15.9175 12.64 12.5575 16 8.4175 16C4.2775 16 1.75 11.83 1.75 11.83M1.75 11.83H5.14M1.75 11.83V15.58"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                Load more Post
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="testimonial__area pt-0 pb-0">
             <div class="">
@@ -474,7 +926,7 @@
                         <div class="testimonial__shape">
                             <img class="testimonial__shape-quote" src="assets/img/testimonial-quote-icon.png" alt="">
                         </div>
-                        <div class="row justify-content-center">
+                        <div class="row justify-content-center"data-aos="fade-up" data-aos-duration="1500">
                             <div class="col-xxl-10 col-xl-9 col-lg-10 col-11">
                                 <div class="testimonial__wrapper">
                                     <div class="section__title-wrapper text-center">
@@ -586,6 +1038,7 @@
 
 
         <section class="padd-total subscrbe-area">
+            <div data-aos="fade-up" data-aos-duration="1500">
             <h4 class="bg-text-email">Abaft solutions</h4>
             <h2 class="footer-inp-text">How can we help you?<br> We'd be delighted to hear from you.
             </h2>
@@ -594,6 +1047,7 @@
                     <input type="text" class="footer-text-box" placeholder="Enter your email address" required>
                     <button type="submit" class="footer-email-button">Subscribe</button>
                 </form>
+            </div>
             </div>
         </section>
     </main>
@@ -616,7 +1070,11 @@
     <script src="assets/js/imagesloaded-pkgd.js"></script>
     <script src="assets/js/main.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script>
         $('.owl-carousel').owlCarousel({
             loop: true,
@@ -652,6 +1110,7 @@
             owl.trigger('stop.owl.autoplay')
         })
     </script>
+
 </body>
 
 </html>

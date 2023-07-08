@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="assets/css/hover-reveal.css">
     <link rel="stylesheet" href="assets/css/spacing.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link href="assets/css/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -74,7 +75,7 @@
         <section class="services__area pt-120 pb-125">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4" data-aos="fade-right" data-aos-duration="1500">
                         <div class="services__widget-2 pr-50">
                             <div class="services__widget-item-2 mb-30">
                                 <div class="services__widget-tab-2 tp-tab">
@@ -156,7 +157,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-8 order-first order-lg-last">
+                    <div class="col-lg-8 order-first order-lg-last" data-aos="fade-left" data-aos-duration="1500">
                         <div class="services__details-wrapper">
                             <h3 class="services__details-title">IT Services And Consulting</h3>
                             <p>An Experienced Best-talented Team Of Technicians Will Always Be At Your Disposal To Support And Maintain Technology For Online And Offline Solutions That Can Create Everything For Your Business Needs For Small To Large Enterprises.</p>
@@ -217,6 +218,10 @@
     <script src="assets/js/hover-reveal.js"></script>
     <script src="assets/js/tween-max.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
